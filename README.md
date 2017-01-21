@@ -28,7 +28,7 @@ We're really looking forward to seeing what you've built by Friday! Please reach
 
 You should finish all the parts of this training on Monday.
 
-1. Create a fork of the [this](https://github.com/sf-wdi-LABS/personal-portfolio) by clicking "Fork" on the top right.
+1. Create a fork of [this](https://github.com/sf-wdi-LABS/personal-portfolio) by clicking "Fork" on the top right.
 
   ![fork button](https://cloud.githubusercontent.com/assets/6520345/17564556/97ecdd00-5ee8-11e6-9ad0-a7b8104579ff.png)
 
