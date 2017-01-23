@@ -94,7 +94,7 @@ You should finish the first part of this training on Monday, and the second part
 
 1. In the `<body>` of the document, replace the `<h1>` tag text with your name and add an image (or gif) of your liking using the `<img>` tag.
 
-1. Open the index.html file in Chrome to see what it looks like, and continue editing your site locally. Work on the structure of your site for the rest of today. We'll finish integrating with Github tomorrow.
+1. Open the `index.html` file in Chrome to see what it looks like, and continue editing your site locally. Work on the structure of your site for the rest of today. We'll finish integrating with Github tomorrow.
 
 ### Tuesday training
 
@@ -103,20 +103,26 @@ You should finish the first part of this training on Monday, and the second part
   ```zsh
   ➜  git status
   ```
-  This shows you the files that have been modified, created, or deleted. Notice that they are listed as `untracked`.
+  This shows you a list of the files that you modified, created, or deleted. Notice that they are listed as _"untracked"_.
 
-1. Now you're ready to `add` your changes. Type
+1. Now you're ready to `add` your changes. We generally do this file by file to be careful:
+  ```
+  ➜  git add index.html
+  ```
+
+  But if we're lazy and confident that we want to keep all our changes, we can use the "sledgehammer" approach (of adding everything all at once):
   ```
   ➜  git add .
   ```
-  Now enter `git status`. Notice that your new file has gone from `untracked` to `Changes to be committed`.
+
+  Now enter `git status`. Notice that your new file has gone from _"untracked"_ to _"Changes to be committed"_.
 
 1. Next step is committing. Type the following:
 
   ```
   ➜  git commit -m "first edits to index.html"
   ```
-  Now enter `git status` again. Notice that the new status is `Your branch is ahead of 'origin/master' by 1 commit.`. This indicates that your the version of the repo on your computer (aka the __local__ version) includes your changes but the version hosted by GitHub (aka the __remote__ version) does not.
+  Now enter `git status` again. Notice that the new status is _"Your branch is ahead of 'origin/master' by 1 commit"_. This indicates that your the version of the repo on your computer (aka the __local__ version) includes your changes but the version hosted by GitHub (aka the __remote__ version) does not.
 
 1. To get your changes on to the remote version of the repo, type
 
@@ -125,9 +131,9 @@ You should finish the first part of this training on Monday, and the second part
   ```
 >***Note:*** *`origin` is the given name of the remote repository hosted on GitHub. `master` is the name of the main branch within the repository. (Typically `master` is the branch you update when you're ready to publish changes to the world.)*
 
-  Now `git status` will tell you that `Your branch is up-to-date with 'origin/master'.` __!!!__
+  Now `git status` will tell you that _"Your branch is up-to-date with 'origin/master"__ __!!!__
 
-1. Check back in on your github.io site to see the improvements deployed!
+1. Visit `<username>.github.io` to see the latest version of your website!
 
 1. Continue editing your site, `commit`ing changes locally, and `push`ing to Github at least three times, adding different features every time, to improve your site and practice this Git workflow. Remember, your site should look like you want it to by the end of the day.
 
