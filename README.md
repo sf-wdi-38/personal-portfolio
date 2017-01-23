@@ -5,10 +5,10 @@ By the end of this course, you'll have built several projects that you'll want t
 We'll work on this project 3 times this week: Monday, Tuesday, and Friday. 
 
 ### Monday
-Monday is about making sure you have the basics: that you've forked the project to your own GitHub account, that you can check out that code and edit it, and that you can see those changes reflected on your page. Make sure you get through the Git Training that's in this README, and add the project and contact info sections to your site. You can also start to add images and style your site. Add the link to your repo and your website in the [project submission Google doc](https://docs.google.com/spreadsheets/d/1eu4_B9iu1TBRsAgYUdpvb3Y949E8stqSo62SMnBPws8/edit#gid=0).
+Monday is about making sure you have the basics: that you've forked the project to your own GitHub account, that you can clone that code and edit it, and that you've started editing the HTML file to add structure to your site. Make sure you get through the first part of the Git Training that's in this README, and add the project and contact info sections to your site. You can also start to add images and style your site. Add the link to your repo and your website in the [project submission Google doc](https://docs.google.com/spreadsheets/d/1eu4_B9iu1TBRsAgYUdpvb3Y949E8stqSo62SMnBPws8/edit#gid=0). (If you don't understand what these GitHub commands are doing, don't worry; we'll talk much more about GitHub tomorrow.)
 
 ### Tuesday
-On Tuesday, you should finish the structure of your site. The sections for your projects and your contact info should be finished, and you should have CSS to style them the way you want. You should have the pictures you want. At this point, you should be willing to show the site to someone else; even if it doesn't have many projects linked yet, it should "look" the way you want it to. (To start, include a link to the repo where you have this project!)
+On Tuesday, you should deploy your site on GitHub. Finish the Git Training sections that are for Tuesday. You should also finish the structure of your site. The sections for your projects and your contact info should be finished, and you should have CSS to style them the way you want. You should have the pictures you want. At this point, you should be willing to show the site to someone else; even if it doesn't have many projects linked yet, it should "look" the way you want it to. (To start, include a link to the repo where you have this project!)
 
 ### Friday
 On Friday, add Javascript to your page. For example, you might have buttons to hide and show the different sections of your page, a place on your page that changes based on the date/time, the ability to search through your projects, or anything else that's interesting and relevant to you.
@@ -26,7 +26,9 @@ We're really looking forward to seeing what you've built by Friday! Please reach
 
 ## Learn Git Training
 
-You should finish all the parts of this training on Monday.
+You should finish the first part of this training on Monday, and the second part on Tuesday.
+
+### Monday Training
 
 1. Create a fork of [this](https://github.com/sf-wdi-LABS/personal-portfolio) by clicking "Fork" on the top right.
 
@@ -92,7 +94,11 @@ You should finish all the parts of this training on Monday.
 
 1. In the `<body>` of the document, replace the `<h1>` tag text with your name and add an image (or gif) of your liking using the `<img>` tag.
 
-6. Now that you've changed the repo, it's time to commit your changes. Back in your terminal, type
+1. Open the index.html file in Chrome to see what it looks like, and continue editing your site locally. Work on the structure of your site for the rest of today. We'll finish integrating with Github tomorrow.
+
+### Tuesday training
+
+1. Now that you've changed the repo, it's time to commit your changes. Back in your terminal, type
 
   ```zsh
   ➜  git status
@@ -121,8 +127,8 @@ You should finish all the parts of this training on Monday.
 
   Now `git status` will tell you that `Your branch is up-to-date with 'origin/master'.` __!!!__
 
-1. Check back in on your site to see the improvements deployed!
+1. Check back in on your github.io site to see the improvements deployed!
 
-1. Repeat steps 11 onward at least three times, adding different features every time, to improve your site and practice this Git workflow.
+1. Continue editing your site, `commit`ing changes locally, and `push`ing to Github at least three times, adding different features every time, to improve your site and practice this Git workflow. Remember, your site should look like you want it to by the end of the day.
 
 
