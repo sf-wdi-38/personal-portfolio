@@ -2,7 +2,7 @@
 By the end of this course, you'll have built several projects that you'll want to show off during your job search. This project will set you up with a portfolio website that you can use to link to your other projects, and to highlight the skills that you bring to the job search.
 
 ## Timeline
-We'll work on this project 3 times this week: Monday, Tuesday, and Friday. 
+We'll work on this project 3 times this week: Monday, Tuesday, and Friday.
 
 ### Monday
 Monday is about making sure you have the basics: that you've forked the project to your own GitHub account, that you can clone that code and edit it, and that you've started editing the HTML file to add structure to your site. Make sure you get through the first part of the Git Training that's in this README, and add the project and contact info sections to your site. You can also start to add images and style your site. Add the link to your repo and your website in the [project submission Google doc](https://docs.google.com/spreadsheets/d/1eu4_B9iu1TBRsAgYUdpvb3Y949E8stqSo62SMnBPws8/edit#gid=0). (If you don't understand what these GitHub commands are doing, don't worry; we'll talk much more about GitHub tomorrow.)
@@ -135,6 +135,4 @@ You should finish the first part of this training on Monday, and the second part
 
 1. Visit `<username>.github.io` to see the latest version of your website!
 
-1. Continue editing your site, `commit`ing changes locally, and `push`ing to Github at least three times, adding different features every time, to improve your site and practice this Git workflow. Remember, your site should look like you want it to by the end of the day.
-
-
+1. Continue editing your site, `commit`ing changes locally, and `push`ing to Github at least three times, adding different features every time, to improve your site and practice this Git workflow. You should finish making those edits and using `commit` and `push` at least 3 times before lunch. After lunch, we'll continue working on our sites, adding more styling, finishing the "Contact me" and "My work" sections, and updating the README.md file by the end of the day.
