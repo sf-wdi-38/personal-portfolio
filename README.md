@@ -13,11 +13,16 @@ On Tuesday, you should deploy your site on GitHub. Finish the Git Training secti
 ### Friday
 On Friday, add Javascript to your page. For example, you might have buttons to hide and show the different sections of your page, a place on your page that changes based on the date/time, the ability to search through your projects, or anything else that's interesting and relevant to you.
 
+We're also asking you to specifically practice looping through an array of objects, and adding what's in them to your page using jQuery. We'd like you to:
+* Create a uniformly structured array of objects representing projects that you've worked on. You can include this portfolio, projects that you completed during Fundamentals, and non-coding-related projects. Make sure you have at least 3 objects representing different projects, and that each one has at least a picture, a name, a description, and a link (to your code or to more info on the project).
+* Loop over your array, and render the data to the page using jQuery, template strings, and the bootstrap grid. Make sure that this rendering will continue to work when you have more projects to add to you page.
+* You have the choice to do this on your main page, under the "My work" section you've already created, or to create a new page, like “projects.html” or “projects/index.html”, where this code will run.
+
 ## Deliverables
-On Friday, we will have a feedback session on your progress on the personal portfolio project. By then we expect to see:
+On Monday, we will review your progress on the personal portfolio project. By then we expect to see:
 
 * An updated README.md file. A readme is like the cover to the book of code you've written for this site. Don't publish a book without a cover! Describe this project in a few sentences - what are you trying to achieve with this page, what technologies are you using, etc. [This is a decent template](https://gist.github.com/zenorocha/4526327) for the way that a readme often looks. Make sure to link to the live site and include some sort of image (logo or screenshot). If you need help writing markdown language (the reason the file ends in `.md`), check out [this guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-* A "My work" section of the page that includes (or will include) links to all repos that contain homework deliverables.
+* A "My work" section of the page that includes (or will include) links to all repos that contain homework deliverables. This should include the JS to loop over your array of objects and add them to your page.
 * A "Contact me" section of the page that includes (at least) a way to email you, a link to your GitHub profile, and a link to your LinkedIn profile.
 * Some custom HTML, CSS, JS, and images. Put your own personal flare on the page and add some customizations. These could be really simple changes that add a bit of your aesthetic or they could be larger features like a navbar, a footer, a photo carousel, bootstrap integration, event listeners, or CSS animations. [Google for personal websites](https://www.google.com/search?q=personal+website&espv=2&biw=1280&bih=612&site=webhp&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwjx-Krl6bfOAhUUI2MKHaoPDUEQsAQIQA&dpr=2#imgrc=OOkEvdqZczSU-M%3A), find one that you like, and imitate it!
 
