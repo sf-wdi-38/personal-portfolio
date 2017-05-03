@@ -83,7 +83,7 @@ You should finish the first part of this training on Monday, and the second part
 10. Back in Atom, open `index.html`. Take a moment to read through index.html and answer these questions for yourself:
 <details>
   <summary>How many stylesheets does this webpage currently have? Where in the project can they be found and edited?</summary>
-There are two stylesheets, `normalize.css` and `main.css`. `normalize.css` is in the `vendor/css` folder because it's a file developed by somebody else (a vendor) and you won't be editing it. `main.css` is in the `assets/css` folder and is the custom styling that you'll spend time adjusting.
+There are two stylesheets, normalize.css and main.css. normalize.css is in the vendor/css folder because it's a file developed by somebody else (a vendor) and you won't be editing it. main.css is in the assets/css folder and is the custom styling that you'll spend time adjusting.
 </details>
 <details>
   <summary>In the <head> element, change the <title> of the page. Where can you observe the impact of this change?</summary>
@@ -92,7 +92,7 @@ There are two stylesheets, `normalize.css` and `main.css`. `normalize.css` is in
 
 <details>
   <summary>If you were to write some Javascript to handle events on this page, what file would be the correct place to write that code?</summary>
-  <p>You'd want to write your custom JS in the `assets/js/app.js` file. Once this file grows big enough you might want to create new JS files in the `assets/js` folder.</p>
+  <p>You'd want to write your custom JS in the assets/js/app.js file. Once this file grows big enough, you might want to create new JS files in the assets/js folder.</p>
 </details>
 
 11. In the `<body>` of the document, replace the `<h1>` tag text with your name and add an image (or gif) of your liking using the `<img>` tag.
@@ -108,7 +108,7 @@ There are two stylesheets, `normalize.css` and `main.css`. `normalize.css` is in
   ```
   This shows you a list of the files that you modified, created, or deleted. Notice that they are listed as _"untracked"_.
 
-1. Now you're ready to `add` your changes. We generally do this file by file to be careful:
+2. Now you're ready to `add` your changes. We generally do this file by file to be careful:
   ```
   ➜  git add index.html
   ```
@@ -120,14 +120,14 @@ There are two stylesheets, `normalize.css` and `main.css`. `normalize.css` is in
 
   Now enter `git status`. Notice that your new file has gone from _"untracked"_ to _"Changes to be committed"_.
 
-2. Next step is committing. Type the following:
+3. Next step is committing. Type the following:
 
   ```
   ➜  git commit -m "first edits to index.html"
   ```
   Now enter `git status` again. Notice that the new status is _"Your branch is ahead of 'origin/master' by 1 commit"_. This indicates that your the version of the repo on your computer (aka the __local__ version) includes your changes but the version hosted by GitHub (aka the __remote__ version) does not.
 
-3. To get your changes on to the remote version of the repo, type
+4. To get your changes on to the remote version of the repo, type
 
   ```
   ➜  git push origin master
@@ -136,6 +136,6 @@ There are two stylesheets, `normalize.css` and `main.css`. `normalize.css` is in
 
   Now `git status` will tell you that _"Your branch is up-to-date with 'origin/master"__ __!!!__
 
-4. Visit `<username>.github.io` to see the latest version of your website!
+5. Visit `<username>.github.io` to see the latest version of your website!
 
-5. Continue editing your site, `commit`ing changes locally, and `push`ing to Github at least three times, adding different features every time, to improve your site and practice this Git workflow. You should finish making those edits and using `commit` and `push` at least 3 times before lunch. After lunch, we'll continue working on our sites, adding more styling, finishing the "Contact me" and "My work" sections, and updating the README.md file by the end of the day.
+6. Continue editing your site, `commit`ing changes locally, and `push`ing to Github at least three times, adding different features every time, to improve your site and practice this Git workflow. You should finish making those edits and using `commit` and `push` at least 3 times before lunch. After lunch, we'll continue working on our sites, adding more styling, finishing the "Contact me" and "My work" sections, and updating the `README.md` file by the end of the day.
