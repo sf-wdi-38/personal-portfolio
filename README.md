@@ -35,7 +35,7 @@ You should finish the first part of this training on Monday, and the second part
 
 ### Monday Training
 
-1. Create a fork of [this](https://github.com/SF-WDI-LABS/personal-portfolio) by clicking "Fork" on the top right.
+1. Create a fork of this repo by clicking "Fork" on the top right.
 
   ![fork button](https://cloud.githubusercontent.com/assets/6520345/17564556/97ecdd00-5ee8-11e6-9ad0-a7b8104579ff.png)
 
@@ -49,6 +49,8 @@ You should finish the first part of this training on Monday, and the second part
   * Click the rename button.
 
 4. Go to the website `<username>.github.io`!  You have a web presence now!! It's not perfect, but it will be a work in progress over the whole course and it's an excellent start! If you want to change the content, you're going to need a copy on your own computer to edit and improve.
+
+>If your site isn't showing up, that's somewhat normal. You can try going back to the settings tab, and changing the theme of your page, which sometimes works to make the site show up. (Just go back and change the theme back after the page has shown up on github.io.)
 
 5. Click the clone or download button and copy the "clone URL."
 
