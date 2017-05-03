@@ -5,7 +5,7 @@ By the end of this course, you'll have built several projects that you'll want t
 We'll work on this project 3 times this week: Monday, Tuesday, and Friday.
 
 ### Monday
-Monday is about making sure you have the basics: that you've forked the project to your own GitHub account, that you can clone that code and edit it, and that you've started editing the HTML file to add structure to your site. Make sure you get through the first part of the Git Training that's in this README, and add the project and contact info sections to your site. You can also start to add images and style your site. Add the link to your repo and your website in the [project submission Google doc](https://docs.google.com/spreadsheets/d/1eu4_B9iu1TBRsAgYUdpvb3Y949E8stqSo62SMnBPws8/edit#gid=0). (If you don't understand what these GitHub commands are doing, don't worry; we'll talk much more about GitHub tomorrow.)
+Monday is about making sure you have the basics: that you've forked the project to your own GitHub account, that you can clone that code and edit it, and that you've started editing the HTML file to add structure to your site. Make sure you get through the first part of the Git Training that's in this README, and add the project and contact info sections to your site. You can also start to add images and style your site. Add the link to your repo and your website in the [project submission Google doc](https://docs.google.com/spreadsheets/d/19baYsQr8BcsPz5E28qp1WYjeLUabz8B26EGnZEHQpmw/edit#gid=0). (If you don't understand what these GitHub commands are doing, don't worry; we'll talk much more about GitHub tomorrow.)
 
 ### Tuesday
 On Tuesday, you should deploy your site on GitHub. Finish the Git Training sections that are for Tuesday. You should also finish the structure of your site. The sections for your projects and your contact info should be finished, and you should have CSS to style them the way you want. You should have the pictures you want. At this point, you should be willing to show the site to someone else; even if it doesn't have many projects linked yet, it should "look" the way you want it to. (To start, include a link to the repo where you have this project!)
@@ -35,7 +35,7 @@ You should finish the first part of this training on Monday, and the second part
 
 ### Monday Training
 
-1. Create a fork of [this](https://github.com/sf-wdi-LABS/personal-portfolio) by clicking "Fork" on the top right.
+1. Create a fork of [this](https://github.com/SF-WDI-LABS/personal-portfolio) by clicking "Fork" on the top right.
 
   ![fork button](https://cloud.githubusercontent.com/assets/6520345/17564556/97ecdd00-5ee8-11e6-9ad0-a7b8104579ff.png)
 
@@ -74,32 +74,30 @@ You should finish the first part of this training on Monday, and the second part
   ➜  cd <username>.github.io
   ```
 
-6. Open this project in Atom.
+9. Open this project in Atom.
 
   ```zsh
   atom .
   ```
 
-1. Back in Atom, open `index.html`. Take a moment to read through index.html and answer these questions for yourself:
-  *
-  <details>
-    <summary>How many stylesheets does this webpage currently have? Where in the project can they be found and edited?</summary>
-    <p>There are two stylesheets, `normalize.css` and `main.css`. `normalize.css` is in the `vendor/css` folder because it's a file developed by somebody else (a vendor) and you won't be editing it. `main.css` is in the `assets/css` folder and is the custom styling that you'll spend time adjusting.</p>
-  </details>
-  *  
-  <details>
-    <summary>In the `<head>` element, change the `<title>` of the page. Where can you observe the impact of this change?</summary>
-    <p>On the tab in the browser, your site will display a new name. It used to be "First Training."</p>
-  </details>
-  *
-  <details>
-    <summary>If you were to write some Javascript to handle events on this page, what file would be the correct place to write that code?</summary>
-    <p>You'd want to write your custom JS in the `assets/js/app.js` file. Once this file grows big enough you might want to create new JS files in the `assets/js` folder.</p>
-  </details>
+10. Back in Atom, open `index.html`. Take a moment to read through index.html and answer these questions for yourself:
+<details>
+  <summary>How many stylesheets does this webpage currently have? Where in the project can they be found and edited?</summary>
+There are two stylesheets, `normalize.css` and `main.css`. `normalize.css` is in the `vendor/css` folder because it's a file developed by somebody else (a vendor) and you won't be editing it. `main.css` is in the `assets/css` folder and is the custom styling that you'll spend time adjusting.
+</details>
+<details>
+  <summary>In the <head> element, change the <title> of the page. Where can you observe the impact of this change?</summary>
+  <p>On the tab in the browser, your site will display a new name. It used to be "First Training."</p>
+</details>
 
-1. In the `<body>` of the document, replace the `<h1>` tag text with your name and add an image (or gif) of your liking using the `<img>` tag.
+<details>
+  <summary>If you were to write some Javascript to handle events on this page, what file would be the correct place to write that code?</summary>
+  <p>You'd want to write your custom JS in the `assets/js/app.js` file. Once this file grows big enough you might want to create new JS files in the `assets/js` folder.</p>
+</details>
 
-1. Open the `index.html` file in Chrome to see what it looks like, and continue editing your site locally. Work on the structure of your site for the rest of today. We'll finish integrating with Github tomorrow.
+11. In the `<body>` of the document, replace the `<h1>` tag text with your name and add an image (or gif) of your liking using the `<img>` tag.
+
+12. Open the `index.html` file in Chrome to see what it looks like, and continue editing your site locally. Work on the structure of your site for the rest of today. We'll finish integrating with Github tomorrow.
 
 ### Tuesday training
 
@@ -122,14 +120,14 @@ You should finish the first part of this training on Monday, and the second part
 
   Now enter `git status`. Notice that your new file has gone from _"untracked"_ to _"Changes to be committed"_.
 
-1. Next step is committing. Type the following:
+2. Next step is committing. Type the following:
 
   ```
   ➜  git commit -m "first edits to index.html"
   ```
   Now enter `git status` again. Notice that the new status is _"Your branch is ahead of 'origin/master' by 1 commit"_. This indicates that your the version of the repo on your computer (aka the __local__ version) includes your changes but the version hosted by GitHub (aka the __remote__ version) does not.
 
-1. To get your changes on to the remote version of the repo, type
+3. To get your changes on to the remote version of the repo, type
 
   ```
   ➜  git push origin master
@@ -138,6 +136,6 @@ You should finish the first part of this training on Monday, and the second part
 
   Now `git status` will tell you that _"Your branch is up-to-date with 'origin/master"__ __!!!__
 
-1. Visit `<username>.github.io` to see the latest version of your website!
+4. Visit `<username>.github.io` to see the latest version of your website!
 
-1. Continue editing your site, `commit`ing changes locally, and `push`ing to Github at least three times, adding different features every time, to improve your site and practice this Git workflow. You should finish making those edits and using `commit` and `push` at least 3 times before lunch. After lunch, we'll continue working on our sites, adding more styling, finishing the "Contact me" and "My work" sections, and updating the README.md file by the end of the day.
+5. Continue editing your site, `commit`ing changes locally, and `push`ing to Github at least three times, adding different features every time, to improve your site and practice this Git workflow. You should finish making those edits and using `commit` and `push` at least 3 times before lunch. After lunch, we'll continue working on our sites, adding more styling, finishing the "Contact me" and "My work" sections, and updating the README.md file by the end of the day.
