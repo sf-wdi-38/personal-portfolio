@@ -1,1 +1,24 @@
 /* custom styles */
+.header {
+  font-family: Arial;
+  font-size: 40px;
+  color: #FFF;
+  font-weight: 800;
+  background-color: #000;
+  height: 150px;
+  width: 800px;
+  padding: 15px;
+}
+
+/*.navBar {
+  float: right;
+  display: inline;
+  background-color: #000;
+  width: 100px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+}*/
