@@ -136,7 +136,7 @@ There are two stylesheets, normalize.css and main.css. normalize.css is in the v
   ```
 >***Note:*** *`origin` is the given name of the remote repository hosted on GitHub. `master` is the name of the main branch within the repository. (Typically `master` is the branch you update when you're ready to publish changes to the world.)*
 
-  Now `git status` will tell you that _"Your branch is up-to-date with 'origin/master"__ __!!!__
+  Now `git status` will tell you that _"Your branch is up-to-date with 'origin/master"_ __!!!__
 
 5. Visit `<username>.github.io` to see the latest version of your website!
 
