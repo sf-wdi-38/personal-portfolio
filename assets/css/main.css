@@ -1,1 +1,55 @@
 /* custom styles */
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+nav {
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  background: pink;
+  padding: 15px 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding: 0 10px;
+}
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+content {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+#page-wrapper {
+  text-align: center;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+footer {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  text-align: left;
+  font-size: 15px;
+  background: pink;
+  color: white;
+  padding: 10px 15px;
+}
