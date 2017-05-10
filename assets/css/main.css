@@ -1,24 +1,62 @@
 /* custom styles */
 .header {
-  font-family: Arial;
-  font-size: 40px;
-  color: #FFF;
-  font-weight: 800;
-  background-color: #000;
-  height: 150px;
-  width: 800px;
-  padding: 15px;
+  background-color: transparent;
+  height: 100px;
 }
 
-/*.navBar {
-  float: right;
-  display: inline;
-  background-color: #000;
-  width: 100px;
+.name {
+  font-family: 'Hind', Arial;
+  color: #fff;
+  font-size: 70px;
+  margin-left: 15px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 230px;
+  letter-spacing: .08em;
+  border-bottom: 3px solid #fff;
+  text-transform: uppercase;
 }
 
-nav a {
+li {
+  background-color: transparent;
+  width: 80px;
+  margin-right: 20px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  letter-spacing: .08em;
+}
+
+ul {
+  padding-right: 30px;
+}
+
+.nav a {
   color: #fff;
   text-decoration: none;
-  list-style: none;
-}*/
+}
+
+a:hover {
+  background-color: #ebebeb;
+  color: #000;
+}
+
+.nav {
+  margin: 30px 10px 0 0;
+}
+
+#page-wrapper {
+  background: url('../../assets/imgs/BgImg2.png') no-repeat center center;
+  height: 800px;
+
+}
+
+p{
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+  color: #fff;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
