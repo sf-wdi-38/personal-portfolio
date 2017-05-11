@@ -140,4 +140,4 @@ There are two stylesheets, normalize.css and main.css. normalize.css is in the v
 
 5. Visit `<username>.github.io` to see the latest version of your website!
 
-6. Continue editing your site, `commit`ing changes locally, and `push`ing to Github at least three times, adding different features every time, to improve your site and practice this Git workflow. You should finish making those edits and using `commit` and `push` at least 3 times before lunch. After lunch, we'll continue working on our sites, adding more styling, finishing the "Contact me" and "My work" sections, and updating the `README.md` file by the end of the day.
+6. Continue editing your site, `commit`ing changes locally, and `push`ing to Github at least three times, adding different features every time, to improve your site and practice this Git workflow. You should finish making those edits and using `commit` and `push` at least 3 times tonight.
