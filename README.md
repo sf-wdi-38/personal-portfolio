@@ -2,13 +2,13 @@
 By the end of this course, you'll have built several projects that you'll want to show off during your job search. This project will set you up with a portfolio website that you can use to link to your other projects, and to highlight the skills that you bring to the job search.
 
 ## Timeline
-We'll work on this project 3 times this week: Monday, Tuesday, and Friday.
+We'll work on this project 3 times this week: Monday, Thursday, and Friday.
 
 ### Monday
-Monday is about making sure you have the basics: that you've forked the project to your own GitHub account, that you can clone that code and edit it, and that you've started editing the HTML file to add structure to your site. Make sure you get through the first part of the Git Training that's in this README, and add the project and contact info sections to your site. You can also start to add images and style your site. Add the link to your repo and your website in the [project submission Google doc](https://docs.google.com/spreadsheets/d/19baYsQr8BcsPz5E28qp1WYjeLUabz8B26EGnZEHQpmw/edit#gid=0). (If you don't understand what these GitHub commands are doing, don't worry; we'll talk much more about GitHub tomorrow.)
+Monday is about making sure you have the basics: that you've forked the project to your own GitHub account, that you can clone that code and edit it, and that you've started editing the HTML file to add structure to your site. Make sure you get through the first part of the Git Training that's in this README, and add the project and contact info sections to your site. You can also start to add images and style your site. Add the link to your repo and your website in the [project submission Google doc](https://docs.google.com/spreadsheets/d/19baYsQr8BcsPz5E28qp1WYjeLUabz8B26EGnZEHQpmw/edit#gid=0). (If you don't understand what these GitHub commands are doing, don't worry; we'll talk much more about GitHub soon.)
 
-### Tuesday
-On Tuesday, you should deploy your site on GitHub. Finish the Git Training sections that are for Tuesday. You should also finish the structure of your site. The sections for your projects and your contact info should be finished, and you should have CSS to style them the way you want. You should have the pictures you want. At this point, you should be willing to show the site to someone else; even if it doesn't have many projects linked yet, it should "look" the way you want it to. (To start, include a link to the repo where you have this project!)
+### Thursday
+On Thursday, you should deploy your site on GitHub. Finish the Git Training sections that are for Thursday. You should also finish the structure of your site. The sections for your projects and your contact info should be finished, and you should have CSS to style them the way you want. You should have the pictures you want. At this point, you should be willing to show the site to someone else; even if it doesn't have many projects linked yet, it should "look" the way you want it to. (To start, include a link to the repo where you have this project!)
 
 ### Friday
 On Friday, add Javascript to your page. For example, you might have buttons to hide and show the different sections of your page, a place on your page that changes based on the date/time, the ability to search through your projects, or anything else that's interesting and relevant to you.
@@ -31,7 +31,7 @@ We're really looking forward to seeing what you've built by Friday! Please reach
 
 ## Learn Git Training
 
-You should finish the first part of this training on Monday, and the second part on Tuesday.
+You should finish the first part of this training on Monday, and the second part on Thursday.
 
 ### Monday Training
 
@@ -99,9 +99,9 @@ There are two stylesheets, normalize.css and main.css. normalize.css is in the v
 
 11. In the `<body>` of the document, replace the `<h1>` tag text with your name and add an image (or gif) of your liking using the `<img>` tag.
 
-12. Open the `index.html` file in Chrome to see what it looks like, and continue editing your site locally. Work on the structure of your site for the rest of today. We'll finish integrating with Github tomorrow.
+12. Open the `index.html` file in Chrome to see what it looks like, and continue editing your site locally. Work on the structure of your site for the rest of today. We'll finish integrating with Github next time.
 
-### Tuesday training
+### Thursday training
 
 1. Now that you've changed the repo, it's time to commit your changes. Back in your terminal, type
 
