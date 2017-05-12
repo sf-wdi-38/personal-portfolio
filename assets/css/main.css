@@ -53,4 +53,20 @@ h2 {
 
 .about-me {
   margin: 10px 0 0 20px;
+  background-color: rgba(80,80,80,0.15);
+  height: 250px;
+  width: 600px;
+  border-radius: 20px;
+}
+
+.about-me-inner {
+  padding: 10px 20px;
+}
+
+.small-header {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.about-me-links {
 }
