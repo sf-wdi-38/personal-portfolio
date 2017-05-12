@@ -1,7 +1,7 @@
-# Kat's Portfolio
-TODO: Write a project description
+## Kat's Portfolio
+Welcome to my GA Web Development Immersive Portfolio! This page is where I you can learn more about my adventure in coding and explore my projects on GitHub!
 ## Installation
-TODO: Describe the installation process
+Fork it, clone it, have some fun... Here's where you can access the files to his page: https://github.com/KatTsukuda/kat.tsukuda.github.io.
 ## Usage
 TODO: Write usage instructions
 ## Contributing
@@ -11,8 +11,12 @@ TODO: Write usage instructions
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 ## History
-TODO: Write history
+Week 1 (May 8-12, 2017): Added HTML, CSS and general content to Portfolio.
 ## Credits
-TODO: Write credits
+- general assembly
+- github
+- bootstrap
+- mdn
+- bat bat...
 ## License
-TODO: Write license
+Copyright 2017 Kat Tsukuda 

@@ -1,40 +1,70 @@
 /* custom styles */
-h1 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  font-size: 50px;
-  text-transform: uppercase;
-  text-align: center;
 
-}
-nav {
-  font-size: 15px;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 500;
-  background: pink;
-  padding: 15px 0;
-}
-a {
-  text-decoration: none;
-  color: white;
-  padding: 0 10px;
-}
-h2 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  font-size: 20px;
-  text-transform: uppercase;
-  text-align: center;
-
-}
-content {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  text-align: center;
-}
+/* hero */
 #page-wrapper {
-  text-align: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.hero .name-header {
+    width: 50%;
+    height: auto;
+    padding: 15px 15px;
+}
+.avatar {
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 20px 20px 0;
+    width: 180px;
+    height: auto;
+}
+/* top navigation */
+nav {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    background: #BDD4DE;
+    padding: 10px 0;
+    margin-bottom: 50px;
+}
+a, a:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px 15px;
+}
+#navbar a:hover {
+    text-decoration: none;
+    color: #707070;
+}
+/* headers */
+content h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 50px;
+}
+/* content */
+content {
+    text-align: justify;
+}
+p, form {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0 50px;
+}
+.gummybear-gif {
+    width: 50%;
+    height: auto;
+    margin-left: 50px;
+}
+.github-icon {
+    width: 40px;
+    height: auto;
+    margin: 0 -10px;
 }
 .clearfix:after {
 	visibility: hidden;
@@ -44,12 +74,13 @@ content {
 	height: 0;
 	font-size: 0;
 }
+/* footer */
 footer {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  text-align: left;
-  font-size: 15px;
-  background: pink;
-  color: white;
-  padding: 10px 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-align: left;
+    font-size: 15px;
+    background: #BDD4DE;
+    color: white;
+    padding: 15px 15px;
 }
