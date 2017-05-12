@@ -1,1 +1,56 @@
-/* custom styles */
+
+header {
+  height: 80px;
+  background-color: rgb(55, 55, 55);
+  width: 100%;
+}
+
+body {
+  background-image: url("../imgs/background-ggbridge.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h2 {
+  text-align: left;
+  margin: 0 0 0 20px;
+}
+
+.name {
+  text-align: left;
+  margin: 10px 0 0 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 60px;
+  color: rgb(55, 55, 55);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 35px;
+  font-weight: 800;
+  color: rgba(127,107,31,1);
+}
+
+.location {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+  color: rgba(50,50,50,1);
+}
+
+.btn-default {
+  margin: 40px 0 0 20px;
+}
+
+.social-links {
+  text-align: right;
+  padding: 20px 30px 0 0;
+}
+
+.fa {
+  margin: 0 5px 0 5px;
+}
+
+.about-me {
+  margin: 10px 0 0 20px;
+}
