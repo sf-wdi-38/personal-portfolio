@@ -3,21 +3,22 @@ console.log("app.js linked.");
 
 let myProjects = [
   {
-    title: "Hiking Website",
+    title: "Washington Trails Assoc.",
     description: "Site exploring the hiking trails around the Seattle area.",
     link: "http://www.wta.org/",
-    image: "assets/imgs/Mountains.jpg"
+    image: "assets/imgs/hiking.png"
   },
   {
-    title: "MonkeyBone",
-    description: "iOS app developed",
-    link: "https://en.wikipedia.org/wiki/Monkey",
-    image: "assets/imgs/SF Skyline4.jpg"
+    title: "Sandwich Monkey",
+    description: "Simple website for a sandwich company.",
+    link: "http://www.thesandwichmonkey.com/",
+    image: "assets/imgs/monkey-site.png"
   },
   {
     title: "Pets that want to kill themselves",
     description: "A humorous look at pets that are dressed ridiculously by their owners.",
-    link: "https://petswhowanttokillthemselves.com"
+    link: "https://petswhowanttokillthemselves.com",
+    image: "assets/imgs/pets-site.png"
   }
 ];
 

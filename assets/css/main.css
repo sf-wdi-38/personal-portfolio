@@ -7,6 +7,7 @@
   font-size: 32px;
   margin: 10px 0 10px 30px;
   text-transform: uppercase;
+  color: #f9043e;
 }
 
 .nav {
@@ -25,17 +26,20 @@ li {
 
 /* Main Page CSS */
 
-.jumbotron {
+.main-page {
   background: url('../imgs/BgImg2.png') no-repeat center center;
+  background-size: cover;
   height: 640px;
   margin: 0;
 }
 
 .main {
-  margin-top: 200px;
+  margin-top: 250px;
 }
 
 .summary {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px !important;
   text-align: center;
   color: #fff;
   margin: 0 !important;
@@ -51,6 +55,11 @@ li {
 .footer p {
   display: inline;
   width: 50%;
+  margin-left: 20px;
+}
+
+.copyright {
+  margin: 20px 0 0 10px;
 }
 
 .logos li {
@@ -59,10 +68,9 @@ li {
   margin-right: 10px;
 }
 
-ul {
+.list-inline {
   margin-top: 5px;
   text-align: right;
-  margin-right: 40px;
 }
 
 /* About Me CSS */
@@ -70,11 +78,12 @@ ul {
 .about-me {
   margin: 0;
   height: 700px;
-  background: url('../imgs/AboutBg.png') no-repeat center center;
+  background: url('../imgs/BackgroundHaarte.png') no-repeat center center;
+  background-size: cover;
 }
 
 .image-box {
-  margin: 65px 0 0 10px;
+  margin: 70px 0 0 30px;
 }
 
 .bio-box {
@@ -86,27 +95,77 @@ ul {
 /* Work CSS */
 
 .work {
-  background-color: #ebebeb;
-  height: 600px;
+  background: url("../imgs/BackgroundSailBoat.png") no-repeat center center;
+  background-size: cover;
+  height: 700px;
 }
 
 .card {
   margin: 30px;
-  width: 200px;
+  width: 300px;
   text-align: center;
 }
 
+
 .card-title {
-  height: 40px;
+  height: 70px;
+  background-color: #fff;
+  margin-top: 0;
+  padding-top: 20px;
+  font-family: 'Hind';
+  letter-spacing: .15em;
 }
 
 .card-text {
   height: 60px;
-  font-family: 'Lato';
-
+  font-family: 'Raleway';
+  color: #fff;
 }
 
 .projects img {
-  width: 200px;
+  width: 300px;
   height: 200px;
+  border: 6px solid #fff;
+}
+
+.btn {
+  background-color: rgba(0,0,0, .5) !important;
+  border: 0 !important;
+}
+
+/* Contact CSS */
+
+.contact {
+  text-align: center;
+  margin: 0;
+}
+
+.center-block {
+  width: 400px;
+  font-family: 'Hind';
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.email {
+  margin-top: 30px;
+}
+
+#contact-list {
+  text-align: center;
+
+}
+
+#envelope {
+  margin-right: 10px;
+}
+
+#resume {
+  margin-top: 50px;
+}
+
+.email-address {
+  text-decoration: none;
+  color: #000;
 }
