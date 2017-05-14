@@ -1,3 +1,6 @@
+/*=================================================
+*Structrure*/
+
 html,body{
     height: 100%
 }
@@ -5,6 +8,8 @@ html,body{
 body {
   background-color: #F1F1F1;
 }
+
+/*header*/
 
 header {
     background-color: #FAFAFA;
@@ -15,12 +20,18 @@ header div {
 }
 
 div.banner {
-  height: 7px;
+  height: 20px;
   background-color: #666;
 }
 
+div.banner i {
+  float:right;
+  margin-right: 20px;
+  color: #FFF;
+  font-size: 16px;
+}
+
 nav {
-  /*margin 0 auto;*/
   clear:both;
 }
 
@@ -32,13 +43,43 @@ nav div {
   border-bottom: 5px solid #666;
 }
 
-nav div:hover {
-  cursor:pointer;
-  color: #000;
-  background-color: #FFF;;
+/*Main*/
+
+main p {
+  padding: 10px;
+  height: 100%;
 }
 
-nav div h1 {
+div.project-content-dev {
+  background-color: #FFF;
+}
+
+/*Footer*/
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #666;
+  text-align: center;
+}
+
+div.footer-thought, div.footer-design {
+  padding: 10px 0;
+}
+
+div.footer-dev {
+  padding: 10px 0;
+  background-color: #FFF;
+  color: #666;
+}
+
+
+/**=================================================
+Text Styling*/
+
+h1 {
   text-align: center;
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 200;
@@ -49,11 +90,36 @@ nav div h1 {
   color: #333;
 }
 
+h2 {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+  text-decoration: none;
+  color: #333;
+}
+
+
 main {
   font-family: 'Titillium Web', sans-serif;
   font-size: 12px;
   height: 100%;
 }
+
+footer {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  vertical-align: text-bottom;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+/*=================================================
+Image Styling*/
 
 div.project-content-thought img {
  float: left;
@@ -76,56 +142,19 @@ div.project-content-design img {
  height:70px;
 }
 
-div.project-content-dev {
-  background-color: #FFF;
-}
-
-main p {
-  padding: 10px;
-  height: 100%;
-  /*float: none;*/
-}
-
-footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #666;
-  text-align: center;
-}
-
-div.footer-thought, div.footer-design {
-  padding: 10px 0;
-}
-
-div.footer-dev {
-  padding: 10px 0;
-  background-color: #FFF;
-}
-
-
 footer img {
   margin: 0;
   padding: 0;
   height:19px;
   width:19px;
-  vertical-align: text-bottom;
+  vertical-align: text-top;
 }
+
+
+/**=================================================
+Links*/
 
 a {
-  text-decoration: none;
-}
-
-
-a.dev {
-  color: #666;
-}
-
-footer
-
-div.footer-thought a, div.footer-design a {
-  color: #FFF;
   text-decoration: none;
 }
 
@@ -133,20 +162,58 @@ footer a {
   color: #FFF;
 }
 
-footer div.footer-dev{
+a.dev {
   color: #666;
 }
+
+div.footer-thought a, div.footer-design a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+
+/*hoverstates*/
 
 a:hover,
 a:focus {
   cursor: pointer;
   text-decoration: none;
   outline: none;
+  color: inherit;
 }
 
-ul {
-  list-style-type: none;
+div.footer-thought:hover,
+div.footer-thought:focus,
+div.footer-design:hover,
+div.footer-design:focus {
+  border: 3px solid #00007F;
+  border-radius: 4px;
+  padding: 7px 0;
+    color: #FFF;
 }
+
+div.footer-dev:hover,
+div.footer-dev:focus {
+  border: 3px solid #00007F;
+  border-radius: 4px;
+  padding: 7px 0;
+  color: #333;
+}
+
+nav div:hover {
+  cursor:pointer;
+  color: #000;
+  background-color: #FFF;;
+}
+
+main img:hover,
+main img:focus {
+  border: 3px solid #00007F;
+  border-radius: 4px;
+}
+
+/*=================================================
+Kludges*/
 
 /*.clearfix::after {
    content: " ";
