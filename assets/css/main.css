@@ -1,5 +1,17 @@
+html,body{
+    height: 100%
+}
+
 body {
-  background-color: #FAFAFA;
+  background-color: #F1F1F1;
+}
+
+header {
+    background-color: #FAFAFA;
+}
+
+header div {
+    width: 100%
 }
 
 div.banner {
@@ -8,7 +20,7 @@ div.banner {
 }
 
 nav {
-  margin 0 auto;
+  /*margin 0 auto;*/
   clear:both;
 }
 
@@ -17,6 +29,7 @@ nav div {
   float: left;
   display: inline;
   padding: 20px 30px;
+  border-bottom: 5px solid #666;
 }
 
 nav div:hover {
@@ -31,28 +44,46 @@ nav div h1 {
   font-weight: 200;
   font-size: 24px;
   text-decoration: none;
-  padding: 20px;
+  /*padding: 20px;*/
   margin: 0 auto;
   color: #333;
 }
 
-
-
-
-div.main-banner {
-  height: 7px;
-  background-color: #777;
-  position: relative;
-  clear: both;
-}
-
-div.project-content {
+main {
   font-family: 'Titillium Web', sans-serif;
   font-size: 12px;
+  height: 100%;
 }
 
-div.project-content p {
+div.project-content-thought img {
+ float: left;
+ margin: 0 10px 10px 0;
+ width: 100px;
+ height:70px;
+}
+
+div.project-content-dev img {
+ display: block;
+ margin: 10px auto;
+ width: 100px;
+ height:70px;
+}
+
+div.project-content-design img {
+ float: right;
+ margin: 0 0 10px 10px;
+ width: 100px;
+ height:70px;
+}
+
+div.project-content-dev {
+  background-color: #FFF;
+}
+
+main p {
   padding: 10px;
+  height: 100%;
+  /*float: none;*/
 }
 
 footer {
@@ -60,23 +91,66 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 10px;
   background-color: #666;
   text-align: center;
 }
 
+div.footer-thought, div.footer-design {
+  padding: 10px 0;
+}
+
+div.footer-dev {
+  padding: 10px 0;
+  background-color: #FFF;
+}
+
+
+footer img {
+  margin: 0;
+  padding: 0;
+  height:19px;
+  width:19px;
+  vertical-align: text-bottom;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+a.dev {
+  color: #666;
+}
+
+footer
+
+div.footer-thought a, div.footer-design a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+footer a {
+  color: #FFF;
+}
+
+footer div.footer-dev{
+  color: #666;
+}
+
+a:hover,
+a:focus {
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+}
 
 ul {
   list-style-type: none;
 }
 
-div.dev {
-  background-color: #FFF;
-}
-
-.clearfix::after {
+/*.clearfix::after {
    content: " ";
    display: block;
    height: 0;
    clear: both;
-}
+}*/
