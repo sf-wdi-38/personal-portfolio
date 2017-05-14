@@ -47,3 +47,7 @@ function buildDictionary(projects) {
 }
 
 fetchData();
+
+$(document).on('click',function(){
+$('.collapse').collapse('hide');
+});
