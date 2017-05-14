@@ -47,5 +47,5 @@ var data = {
 
 
 for (var i = 0; i < data.projects.length; i++) {
-  $(".projects-completed").append(`<img src="${data.projects[i].photo_url}"><li class="project-numbers">${data.projects[i].name}</li><p>${data.projects[i].description}</p><a class="project-photos" href="${data.projects[i].project_url}">Project link</a>`);
+  $(".projects-completed").append(`<div class="container projects-icons"><div class="row"><img src="${data.projects[i].photo_url}"><li class="project-numbers">${data.projects[i].name}</li><p>${data.projects[i].description}</p><a class="project-photos" href="${data.projects[i].project_url}">Project link</a></div></div>`);
 }
