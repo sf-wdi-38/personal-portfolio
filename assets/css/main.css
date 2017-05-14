@@ -20,19 +20,20 @@ header div {
 }
 
 div.banner {
-  height: 20px;
+  height: 24px;
   background-color: #666;
 }
 
 div.banner i {
   float:right;
-  margin-right: 20px;
+  padding: 2px 15px 2px 0;
   color: #FFF;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 nav {
   clear:both;
+  margin-top: 24px;
 }
 
 nav div {
@@ -43,6 +44,9 @@ nav div {
   border-bottom: 5px solid #666;
 }
 
+main div {
+    padding-top: 24px;
+}
 /*Main*/
 
 main p {
@@ -85,7 +89,6 @@ h1 {
   font-weight: 200;
   font-size: 24px;
   text-decoration: none;
-  /*padding: 20px;*/
   margin: 0 auto;
   color: #333;
 }
@@ -97,6 +100,7 @@ h2 {
   font-style: italic;
   text-decoration: none;
   color: #333;
+  margin-top: 10px;
 }
 
 
@@ -201,14 +205,17 @@ div.footer-dev:focus {
 }
 
 nav div:hover {
-  cursor:pointer;
-  color: #000;
-  background-color: #FFF;;
+  cursor: pointer;
+  background-color: #FFF;
+}
+
+h1:hover{
+    color: #00007F;
 }
 
 main img:hover,
 main img:focus {
-  border: 3px solid #00007F;
+  border: 2px solid #00007F;
   border-radius: 4px;
 }
 
