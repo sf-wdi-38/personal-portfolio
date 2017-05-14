@@ -36,6 +36,9 @@ a:hover {
 	text-decoration: none;
 }
 
+.bgimage {
+	background-image: url(mountain.jpg)
+}
 
 
 header {
@@ -74,9 +77,32 @@ header .intro-text {
 	background-color: blue;
 	border-style: dashed;
 	border-color: yellow;
-	font: black;
+	font: black
 }
 
+.website-parts {
+	border: 3px solid #fff;
+	margin: 75px;
+	padding: 75px;
+	text-align: center;
+}
+
+.story-text {
+	background-color: blue;
+	border-style: dashed;
+	border-color: yellow;
+	font: black;
+	padding: 20px;
+	text-align: left;
+}
+
+.mr-fox {
+	text-align: left;
+	background-color: black;
+	margin: 50px;
+	border-color: blue;
+	padding: 10px;
+}
 .glyphicon {
 	font-size: 35px;
 }
@@ -95,28 +121,15 @@ header .intro-text {
 	height: 10px;
 }
 
-.mr-fox {
-	background-color: black;
-	margin: 50px;
-	border-color: blue;
-	padding: 10px;
-}
-
 .contact-me {
   background-color: #63615C;
 }
 
-.website-parts {
-	border: 3px solid #fff;
-	margin: 75px;
-	padding: 75px;
-	text-align: center;
-}
 
 .work-icons {
 	background-color: blue;
 	border-style: dashed;
 	border-color: yellow;
 	font: black;
-	margin: 25px;
+	padding: 20px;
 }
