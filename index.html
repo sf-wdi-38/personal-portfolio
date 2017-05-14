@@ -1,26 +1,149 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>First Training</title>
-  <!-- meta -->
-  <meta charset="utf-8" />
-  <meta name="description" content="Personal Site">
-  <meta name="author" content="GA Student">
-  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-  <!-- mobile -->
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- styles -->
-  <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-  <!-- scripts -->
-  <script type="text/javascript" src="assets/js/app.js"></script>
-  <!-- favicon -->
-  <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
-</head>
-<body>
-  <div id="page-wrapper">
-    <h1>My Personal Page!</h1>
-    <h2> Hi! I am Kabita</h2>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    	<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Bootstrap core CSS  and jS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.1.2/mustache.min.js"></script>
+
+
+
+        <!-- Application CSS and fonts -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <title>Portfolio</title>
+    </head>
+
+    <body>
+      <!-- Navigational header -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Kabita <span>Chatterjee</span></a>
+              </div>
+            <div id="navbar" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="index.html">About me</a></li>
+                <li><a href="#gallery">Featured Work</a></li>
+                <li><a href="https://docs.google.com/document/d/10EltFuGvZ5CmbLQKT0lgwiIbwFnp02wMie_k63IgE50/" target="_blank">Resume</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </nav>
+
+        <div id="about" class="row-spacer"></div>
+
+    	<div class="container">
+    			<div class="row">
+    				<div class="col-md-4">
+    					<img id="self" class="img-responsive" src="assets/imgs/me.png" alt="profile photo">
+    				</div>
+
+          <div class="col-md-4 text-left">
+            <h2> Career</h2>
+            <p>Freelance web-developer with a passion for making user-friendly and creative web applications.I have worked in different industries from telecom to healthcare and would love to bring my experience in making the web simpler and user-friendly.
+            </p>
+            <h2> Education</h2>
+            <p>Bachelors in Optical Engineering <br>
+            Bachelors in Physics</p>
+          </div>
+
+          <div class="col-md-4 text-left">
+            <h4> Available for:</h4>
+            <p>Web Development <br>
+              Data Analysis<br>
+              Consulting
+            </p>
+          </div>
+          <div class="col-md-4 text-left">
+            <h4> Contact:</h4>
+            <p>Cell : 650-307-8070 <br>
+              E-mail : chatterjeekavita01@gmail.com<br>
+            </p>
+          </div>
+          <div id="social" class="col-md-4"><h4>Social links:</h4>
+            <a href="https://github.com/kabitachatterjee" target="_blank"><img src="assets/imgs/github.png" alt="github logo"></a>
+            <a href="https://www.linkedin.com/in/kabitachatterjee" target="_blank"><img src="assets/imgs/linkedin.png" alt="linkedin logo"></a>
+        </div>
+      </div>
+
+    			<div id="gallery" class="row">
+            <div class="col-md-12">
+              <hr>
+            </div>
+
+           <div class="col-md-12 text-center row-spacer">
+    					<h2>My academic projects showcasing work done as a<br/></h2>
+                <h3> Web Designer | Programmer | Researcher</h3>
+    				</div>
+            <section id="featured-work">
+              <div class = "row"></div>
+            </section>
+            <div id="mask"></div>
+            <div id ="lightbox-container">
+            </div>
+    			</div>
+
+         </div>
+
+
+      <!--- Cards Template-->
+  <script id="my-template" type ="x-tmpl-mustache">
+
+    <div class="col-md-4">
+      <img src="{{image}}" alt="300 movie poster" class="img-responsive" data-toggle="modal" data-target="{{id}}">
+      <h4 class="text-uppercase">{{title}}</h4>
+    </div>
+  </script>
+
+  <!-- Lightbox template. -->
+  <script id="lightbox-template" type="x-tmpl-mustache">
+  <div class="modal" id="{{id}}" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+   <div class="modal-content">
+    <div class="modal-header">
+      <h4 class="modal-title">{{title}}</h4>
+    </div>
+    <div class="modal-body">
+      <img class="img-responsive" src="{{image}}" alt="300 movie poster">
+      <p>{{desc}}</p>
+      <h5>Code:</h5><a href="{{code}}" target="_blank">{{code}}</a>
+      <h5>Web URL</h5><a href="{{webURL}}" target="_blank">{{webURL}}</a>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal" aria-label="Close">Close</button>
+    </div>
   </div>
-</body>
-</html>
+</div>
+</div>
+</script>
+
+<script type="text/javascript" src="assets/js/app.js">
+</script>
+
+<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCVJASVaWYQEKXVouS5d0C-WQ0MilaWj10",
+    authDomain: "portfolio-2df2b.firebaseapp.com",
+    databaseURL: "https://portfolio-2df2b.firebaseio.com",
+    projectId: "portfolio-2df2b",
+    storageBucket: "portfolio-2df2b.appspot.com",
+    messagingSenderId: "304370797227"
+  };
+  firebase.initializeApp(config);
+</script>
+    </body>
+    </html>
