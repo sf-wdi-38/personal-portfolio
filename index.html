@@ -12,50 +12,87 @@
     <!-- styles -->
     <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/slider.css"
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,700,800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
-    <!-- Bootstrap -->
-    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- scripts -->
     <script type="text/javascript" src="assets/js/app.js"></script>
     <!-- favicon -->
-    <link rel="icon" type="image/png"         href="assets/imgs/favicon.png">
+    <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
 </head>
 <body>
     <header>
         <div id="page-wrapper">
             <div class="hero">
                 <img class="name-header" src="assets/imgs/name-header_img" type="image/png" alt="Kat Tsukuda">
+                <p class="subheader">digital strategist . graphic designer . analyst</p>
                 <img class="avatar" class="clearfix" src="https://cdn-images-1.medium.com/fit/c/200/200/0*bnE5T1ESvkb6dfpV.jpg" alt="Profile Picture">
+
             </div>
     </header>
 <nav id="navbar">
     <a href="https://bearheartsbat.wordpress.com/">blog</a>
     <a href="https://github.com/KatTsukuda">github</a>
-    <a href="https://twitter.com/BearHeartsBat">twitter</a>
+    <a href="https://twitter.com/LeMurierNoir">twitter</a>
     <a href="https://medium.com/@LeMurierNoir">medium</a>
     <a href="https://www.linkedin.com/in/ktsukuda">linkedin</a>
 </nav>
 
 <content>
-    <h2>portfolio</h2>
+    <h2>About</h2>
         <p>Salut! Welcome to my portfolio for <strong>General Assembly Web Development Immersive</strong>.</p>
-        <p>I'm Kat, a digital strategist, dabbler of graphic design, and most importantly &ndash; an avid oatmeal lover currently living in San Francisco, CA.</p><br>
-        <img class="gummybear-gif" src="https://bearheartsbat.files.wordpress.com/2016/06/goldenbouncygummybear.gif?w=1208">
+        <p>I'm Kat, a digital strategist, dabbler of graphic design, and most importantly &ndash; an avid oatmeal lover currently living in San Francisco, CA.</p>
+        <!-- <img class="gummybear-gif" src="https://bearheartsbat.files.wordpress.com/2016/06/goldenbouncygummybear.gif?w=1208"> -->
 
     <h2>projects</h2>
-        <p>Stay up-to-date with all my projects as I dive deep into the world of engineering!<a href="https://github.com/KatTsukuda"><img class="github-icon" src="assets/imgs/Github.png" alt="github icon"></a></p> 
+        <p>Stay up-to-date with all my projects as I dive deep into the world of engineering!<a href="https://github.com/KatTsukuda"><img class="github-icon" src="assets/imgs/Github.png" alt="github icon"></a></p>
 
-    <h2>say hello!</h2>
-        <p>Got questions? <a href="mailto:bearheartsbat@gmail.com">Send me a holla...</a></p><br>
+        <div class="slider-container">
+
+            <div class="my-projects fade">
+                    <h4>Project 1</h4>
+                        <img class="tiles" src="assets/imgs/grumpybear-tile.png" alt="grumpy bear">
+                        <div class="about-project">
+                            <strong>Title:</strong> Grumpy Bear<br>
+                            <strong>Description:</strong> A version of me, if I were a bear. This is part of my Bat Hearts Bear project.
+                        </div>
+            </div>
+
+            <div class="my-projects fade">
+
+                    <h4>Project 2</h4>
+                    <img class="tiles" src="assets/imgs/bat.jpg" alt="bat">
+                    <div class="about-project">
+                        <strong>Title:</strong> Bat Bat<br>
+                        <strong>Description:</strong> A mixed media project of my best friend as a bat.
+                    </div>
+            </div>
+
+            <div class="my-projects fade">
+
+                    <h4>Project 3</h4>
+                    <img class="tiles" src="assets/imgs/bananamonkey-tile.png" alt="banana monkey">
+                    <div class="about-project">
+                        <strong>Title:</strong> Monkey<br>
+                        <strong>Description:</strong> A graphic of a starfish or banana monkey based on my stuffed animal monkey, Socrates.
+                    </div>
+            </div>
+
+        </div>
+        <br>
+
+            <div style="text-align:center">
+                 <span class="dot" onclick="currentSlide(1)"></span>
+                 <span class="dot" onclick="currentSlide(2)"></span>
+                 <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+
+        <h2>say hello!</h2>
+            <p>Got questions? <a href="mailto:bearheartsbat@gmail.com">Send me a holla...</a></p><br>
 </content>
 <footer class="clearfix">
     <div>Copyright 2017 Kat Tsukuda</div>
 </footer>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -17,6 +17,12 @@
     width: 180px;
     height: auto;
 }
+.subheader {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: -20px;
+}
 /* top navigation */
 nav {
     font-family: 'Open Sans', sans-serif;
@@ -26,6 +32,8 @@ nav {
     font-weight: 300;
     background: #BDD4DE;
     padding: 10px 0;
+}
+nav {
     margin-bottom: 50px;
 }
 a, a:visited {
@@ -56,16 +64,13 @@ p, form {
     font-weight: 300;
     padding: 0 50px;
 }
-.gummybear-gif {
-    width: 50%;
-    height: auto;
-    margin-left: 50px;
-}
 .github-icon {
     width: 40px;
     height: auto;
     margin: 0 -10px;
 }
+
+
 .clearfix:after {
 	visibility: hidden;
 	display: block;
