@@ -27,7 +27,7 @@ $(document).on('ready', function(){
 
 
 for (let i = 0; i < myProjects.length; i++) {
-  $(".work-stuff").append(`<div class="col-md-4"><div class="projects"><div class="card"><img class="card-img-top" src="${myProjects[i].image}" alt="Card image cap"><div class="card-block"><h4 class="card-title">${myProjects[i].title}</h4><p class="card-text">${myProjects[i].description}</p><a href="#" class="btn btn-primary">Check it Out!</a></div></div></div></div>`);
+  $(".work-stuff").append(`<div class="col-md-4"><div class="projects"><div class="card"><img class="card-img-top" src="${myProjects[i].image}" alt="Card image cap"><div class="card-block"><h4 class="card-title">${myProjects[i].title}</h4><p class="card-text">${myProjects[i].description}</p><a href="${myProjects[i].link}" class="btn btn-primary">Check it Out!</a></div></div></div></div>`);
 }
 
 
