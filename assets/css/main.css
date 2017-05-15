@@ -12,15 +12,16 @@ body {
 }
 
 .pic1 {
-  background: #ffa949 url(/Users/Cindel/desktop/WDI38/drstrangele.github.io/img/threemonkeys.jpg) no-repeat center;
+  background: #ffa949 url(/Users/Cindel/desktop/WDI38/drstrangele.github.io/assets/imgs/threemonkeys.jpg) no-repeat center;
 }
 
 .pic2 {
-  background: #ffa949 url(/Users/Cindel/desktop/WDI38/drstrangele.github.io/img/MarioJump.jpg) no-repeat center;
+  background: #ffa949 url(/Users/Cindel/desktop/WDI38/drstrangele.github.io/assets/imgs/MarioJump.jpg) no-repeat center;
 }
 
 .pic3 {
-  background: #ffa949 url(/Users/Cindel/desktop/WDI38/drstrangele.github.io/img/Hiking.jpg) no-repeat center;
+  background: #ffa949 url(/Users/Cindel/desktop/WDI38/drstrangele.github.io/assets/imgs/Hiking.jpg) no-repeat center;
+  height: 400px;
 }
 
 .jumbotron p {
