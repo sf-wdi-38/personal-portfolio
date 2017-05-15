@@ -13,7 +13,11 @@ let projectsList = [
   }
 ]
 
-for (let i = 0; i < projectsList.length; i++) {
-	let allInfo = projectsList[i].name + projectsList[i].info;
-	$("div.col-md-4.h3").append(allInfo);
+function listTheProjects() {
+  for (let i = 0; i < projectsList.length; i++) {
+    let allInfo = projectsList[i].name + projectsList[i].info;
+    $("div.col-md-4.h3").text(allInfo);
+  }
 }
+
+listTheProjects();
