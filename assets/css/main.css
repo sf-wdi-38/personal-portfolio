@@ -40,7 +40,10 @@ nav div {
 
 /*Main*/
 
-main div {
+main div.project-content-thought,
+main div.project-content-dev,
+main div.project-content-design
+ {
     padding-top: 24px;
 }
 
@@ -121,6 +124,8 @@ div.banner i {
 }
 
 
+
+
 /*=================================================
 Image Styling*/
 
@@ -186,6 +191,11 @@ a:focus {
   color: inherit;
 }
 
+div.banner i:hover,
+div.banner i:focus {
+text-shadow: -2px 0 #00007F, 0 2px #00007F, 2px 0 #00007F, 0 -2px #00007F;
+}
+
 div.footer-thought:hover,
 div.footer-thought:focus,
 div.footer-design:hover,
@@ -218,6 +228,7 @@ main img:focus {
   border: 2px solid #00007F;
   border-radius: 4px;
 }
+
 
 /*=================================================
 Kludges*/
