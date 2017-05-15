@@ -4,10 +4,10 @@ POC for using jQuery to insert JavaScript object content into a minimally styled
 
 Technologies used:
 
-HTML
-CSS
-JavaScript
-jQuery
-imported fonts (Google Fonts)
-imported icon library (Font Awesome)
-Bootstrap Layouts
+* HTML
+* CSS
+* JavaScript
+* jQuery
+* Imported fonts (Google Fonts)
+* Imported icon library (Font Awesome)
+* Bootstrap Layouts
