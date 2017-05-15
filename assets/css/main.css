@@ -1,74 +1,171 @@
 
-header {
+.main {
+  height: 800px;
+  border: 1px solid grey;
+  background-image: url("../imgs/background-sf-neighborhood.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-header{
   height: 80px;
-  /*background-color: rgb(55, 55, 55);*/
+  border: 1px solid black;
   background: linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.4));
   background: -webkit-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.4));
-  width: 100%;
+  background: -moz-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.4));
 }
 
-body {
-  background-image: url("../imgs/background-ggbridge.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+.header-links {
+  height: 60px;
+  margin: 10px 30px;
 }
 
-h2 {
-  text-align: left;
-  margin: 0 0 0 20px;
+.contact-links-cont {
+  float: left;
 }
 
-.name {
-  text-align: left;
-  margin: 10px 0 0 20px;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 60px;
-  color: rgb(55, 55, 55);
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+.contact-links {
+  height: 60px;
+  display: inline-block;
+  padding: 25px 0;
+  margin: 0 20px 0 0;
 }
 
-.title {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 35px;
-  font-weight: 800;
-  color: rgba(127,107,31,1);
+.contact {
+  color: rgb(212, 255, 253);
 }
 
-.location {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 30px;
-  color: rgba(50,50,50,1);
+.e-mail-address:hover {
+  color: rgb(212, 255, 253);
+  text-decoration: underline;
 }
 
-.btn-default {
-  margin: 40px 0 0 20px;
+.e-mail-address:visited {
+  color: rgb(212, 255, 253);
+}
+
+.social-links-cont {
+  float: right;
 }
 
 .social-links {
-  text-align: right;
-  padding: 20px 30px 0 0;
+  height: 60px;
+  display: inline-block;
+  padding: 10px 0;
+  margin: 0 0 0 10px;
 }
 
-.fa {
-  margin: 0 5px 0 5px;
+.intro {
+  height: 300px;
+  width: 600px;
+  margin: 100px auto;
+  border-radius: 20px;
+  background-color: rgba(100, 100, 100, 0.8);
+}
+
+.name {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 30px 0 0 0;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 52px;
+}
+
+.title {
+  text-align: center;
+  color: rgb(242, 255, 230);
+  padding: 0 0 20px 0;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 38px;
 }
 
 .about-me {
-  margin: 10px 0 0 20px;
-  background-color: rgba(80,80,80,0.15);
-  height: 250px;
-  width: 600px;
-  border-radius: 20px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  padding: 0 20px;
+  font-family: "Helvetica", sans-serif;
+  font-size: 15px;
 }
 
-.about-me-inner {
-  padding: 10px 20px;
+.projects {
+  height: 500px;
+  border: 1px solid grey;
 }
 
-.small-header {
+.projects-header {
+  text-align: center;
+  padding: 50px 0 0 0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 32px;
   font-weight: 600;
-  font-size: 16px;
+  color: rgb(20, 20, 20);
 }
 
-.about-me-links {
+.sample-projects-cont {
+  height: 250px;
+  width: 815px;
+  margin: 50px auto;
+}
+
+.sample-projects {
+  display: inline-block;
+}
+
+.nav-arrow-left {
+  height: 250px;
+  width: 100px;
+}
+
+.fa.fa-angle-left {
+  position: absolute;
+  margin: 97px 0 0 20px;
+}
+
+.project-image-cont {
+  height: 250px;
+  width: 200px;
+  border: 1px solid rgb(150,150,150);
+}
+
+.project-image {
+  position: absolute;
+  max-height: 248px;
+}
+
+.project-summary-cont {
+  height: 250px;
+  width: 400px;
+  position: absolute;
+  margin: 0;
+  border: 1px solid rgb(150,150,150);
+  border-left: 1px solid white;
+}
+
+.project-name {
+  margin: 10px 10px 0 20px;
+  font-family: "helvetica", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  border-bottom: 1px solid rgb(180,180,180);
+}
+
+.project-description {
+  margin: 10px 10px 0 20px;
+  font-family: "helvetica", sans-serif;
+  font-size: 14px;
+}
+
+.nav-arrow-right {
+  height: 250px;
+  width: 100px;
+  float: right;
+}
+
+.nav-arrow:hover {
+  cursor: pointer;
+}
+
+.fa.fa-angle-right {
+  position: absolute;
+  margin: 97px 0 0 60px;
 }
