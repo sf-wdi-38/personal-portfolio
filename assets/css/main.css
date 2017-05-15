@@ -1,7 +1,8 @@
 /*=================================================
 *Structrure*/
 
-html,body{
+html,
+body {
     height: 100%
 }
 
@@ -24,13 +25,6 @@ div.banner {
   background-color: #666;
 }
 
-div.banner i {
-  float:right;
-  padding: 2px 15px 2px 0;
-  color: #FFF;
-  font-size: 18px;
-}
-
 nav {
   clear:both;
   margin-top: 24px;
@@ -44,10 +38,11 @@ nav div {
   border-bottom: 5px solid #666;
 }
 
+/*Main*/
+
 main div {
     padding-top: 24px;
 }
-/*Main*/
 
 main p {
   padding: 10px;
@@ -69,7 +64,8 @@ footer {
   text-align: center;
 }
 
-div.footer-thought, div.footer-design {
+div.footer-thought,
+div.footer-design {
   padding: 10px 0;
 }
 
@@ -81,7 +77,7 @@ div.footer-dev {
 
 
 /**=================================================
-Text Styling*/
+Text and Icon Styling*/
 
 h1 {
   text-align: center;
@@ -101,8 +97,8 @@ h2 {
   text-decoration: none;
   color: #333;
   margin-top: 10px;
+  padding: 10px 0 0 10px;
 }
-
 
 main {
   font-family: 'Titillium Web', sans-serif;
@@ -117,8 +113,11 @@ footer {
   vertical-align: text-bottom;
 }
 
-ul {
-  list-style-type: none;
+div.banner i {
+  float:right;
+  padding: 2px 15px 2px 0;
+  color: #FFF;
+  font-size: 18px;
 }
 
 
@@ -170,7 +169,8 @@ a.dev {
   color: #666;
 }
 
-div.footer-thought a, div.footer-design a {
+div.footer-thought a,
+div.footer-design a {
   color: #FFF;
   text-decoration: none;
 }
@@ -209,7 +209,7 @@ nav div:hover {
   background-color: #FFF;
 }
 
-h1:hover{
+h1:hover {
     color: #00007F;
 }
 
@@ -221,6 +221,9 @@ main img:focus {
 
 /*=================================================
 Kludges*/
+
+
+
 
 /*.clearfix::after {
    content: " ";
