@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>First Training</title>
+  <title>Personal Site</title>
   <!-- meta -->
   <meta charset="utf-8" />
   <meta name="description" content="Personal Site">
@@ -10,16 +10,80 @@
   <!-- mobile -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!-- styles -->
-  <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
   <!-- scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="assets/js/app.js"></script>
   <!-- favicon -->
   <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
 </head>
 <body>
-  <div id="page-wrapper">
-    <h1>My Personal Page!</h1>
-  </div>
-</body>
-</html>
+  <!-- Header -->
+  <header>
+    <div class="layer">
+      <div class="container">
+        <div class="intro-text">
+          <span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span>
+          <div class="intro-heading">I'm John</div>
+          <span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- About Me Section -->
+  <section class="website-parts my-story">
+    <div class="container-fluid">
+      <div class="row">
+        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+        <h2>My Story</h2>
+        <p>How I got here...</p>
+        <div class="story-text">
+          <div class="row">
+            <p>I created my first website in college and was always fascinated with all things tech. It was not until I came to the Bay Area a few years ago that I realized how much software was disrupting industries of all kind. Given this turning point in history, I decided to make the leap and learn how to code. I am a firm believer that code literacy will be essential in the near future. That is why I am starting this journey.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="website-parts portfolio">
+    <div class="container-fluid">
+      <div class="row">
+        <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
+        <h2>My Work</h2>
+        <p>Click to see my projects:</p>
+
+        <button type="button" class="btn btn-primary btn-outline-primary" onclick="listProjects(); this.onclick=null;">Projects</button>
+
+
+        <div class="container-fluid mr-fox">
+          <div class="row">
+            <ul class="projects-completed">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Me Section -->
+  <section class="website-parts contact-me">
+    <div class="container-fluid">
+      <div class="row">
+        <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+        <h2>Contact Me</h2>
+        <p>You can find me here:</p>
+        <span class="work-icons">
+          <a href="https://www.linkedin.com/in/umichdoe">
+            <img src="assets/imgs/completed/linkedin2.png" alt="Linkedin"></a>
+            <a href="https://www.github.com/umichdoe"><img src="assets/imgs/completed/github.png" alt="Github"></a>
+          </span>
+        </div>
+      </div>
+    </section>
+  </body>
+  </html>
