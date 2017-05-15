@@ -14,14 +14,31 @@
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
   <!-- scripts -->
   <script type="text/javascript" src="assets/js/app.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
   <!-- favicon -->
   <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
   <div id="page-wrapper">
-    <h1>Sridhar Poddar</h1>
-    <img src="assets/imgs/profile.png">
-    <p></p>
+    <h1 class="name">Sridhar Poddar</h1>
+    <button class = "profile" onclick="showImage()"> Meet me!</button>
+    <nav> <a href = "https://www.linkedin.com/in/sridharpoddar/" target="_blank">Linkedin</a> <a href = "https://github.com/sridharpoddar/" target="_blank">Github</a> <a href ="mailto:sridharpoddar@gmail.com?Subject=Hello""> Email </a></nav>
+    <div id="pic" style="display: none">
+    <img class="profile-pic" src="assets/imgs/profile.png"></img>
   </div>
+  <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+  
 </body>
+<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
 </html>
+
+
+<!-- style="display: none;" -->
