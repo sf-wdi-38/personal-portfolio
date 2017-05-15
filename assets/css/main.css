@@ -1,1 +1,47 @@
 /* custom styles */
+
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+.jumbotron {
+  background-size: cover;
+  height: 600px;
+  color: white;
+  text-align: center;
+}
+
+.pic1 {
+  background: #ffa949 url(/Users/Cindel/desktop/WDI38/drstrangele.github.io/img/threemonkeys.jpg) no-repeat center;
+}
+
+.pic2 {
+  background: #ffa949 url(/Users/Cindel/desktop/WDI38/drstrangele.github.io/img/MarioJump.jpg) no-repeat center;
+}
+
+.pic3 {
+  background: #ffa949 url(/Users/Cindel/desktop/WDI38/drstrangele.github.io/img/Hiking.jpg) no-repeat center;
+}
+
+.jumbotron p {
+	color: white;
+	font-size: 26px;
+}
+
+.contactme, .contactme p{
+  color: 	#A9A9A9;
+}
+
+ul {
+  margin-top: 10px;
+}
+
+.footer {
+  position: relative;;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
