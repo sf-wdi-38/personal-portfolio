@@ -1,1 +1,82 @@
 /* custom styles */
+
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+.jumbotron {
+  background-size: cover;
+  height: 600px;
+  color: white;
+  text-align: center;
+}
+
+.pic1 {
+  background: url(drstrangele.git.io/assets/imgs/threemonkeys.jpg) no-repeat center;
+}
+
+.pic2 {
+  background: url(drstrangele.git.io/assets/imgs/MarioJump.jpg) no-repeat center;
+}
+
+.pic3 {
+  background: url(drstrangele.git.io/assets/imgs/Hiking.jpg) no-repeat center;
+  height: 400px;
+}
+
+.jumbotron p {
+	color: white;
+	font-size: 26px;
+}
+
+.contactme, .contactme p{
+  color: 	#A9A9A9;
+}
+
+ul {
+  margin-top: 10px;
+}
+
+.footer {
+  position: relative;;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+.col-md-4 {
+  padding-left: 0;
+}
+
+.project-photo1 {
+  height:258.45px;
+  width:480px;
+  background-image: url(drstangele.github.io/assets/imgs/portfolio/fullsize/1.jpg);
+  background-size: 100% 100%;
+  display: inline-block;
+  float: left;
+  text-align: center;;
+}
+
+.project-photo2 {
+  height:258.45px;
+  width:480px;
+  background-image: url(drstrangele.github.io/assets/imgs/portfolio/fullsize/2.jpg);
+  background-size: 100% 100%;
+  display: inline-block;
+  float: left;
+  text-align: center;;
+}
+
+.project-photo3 {
+  height:258.45px;
+  width:480px;
+  background-image: url(drstrangele.git.io/assets/imgs/portfolio/fullsize/3.jpg);
+  background-size: 100% 100%;
+  display: inline-block;
+  float: left;
+  text-align: center;
+}
