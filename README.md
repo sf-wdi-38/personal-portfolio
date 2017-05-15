@@ -1,10 +1,16 @@
-# Project Name
+# Personal Portfolio
 
 TODO: Write a project description
 
 ## Installation
 
-TODO: Describe the installation process
+There are no requirements for installation.
+
+## Link
+
+[Bill Schuetzle Portfolio](https://bschuetzle.github.io/)
+
+[logo]: https://github.com/bschuetzle/bschuetzle.github.io/blob/master/assets/imgs/website-icon.png "Logo"
 
 ## Usage
 
@@ -22,10 +28,3 @@ TODO: Write usage instructions
 
 TODO: Write history
 
-## Credits
-
-TODO: Write credits
-
-## License
-
-TODO: Write license
