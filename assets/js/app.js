@@ -144,9 +144,8 @@ $( document ).ready(function() {
     },
   ];
 
-
 function addEntries(contentType, section){
-  for (var i = 0; i < contentType.length; i++) {
+  for (let i = 0; i < contentType.length; i++) {
 
     // Set Variables
     let h2text = $("<h2/>").text(contentType[i].title);
@@ -161,7 +160,7 @@ function addEntries(contentType, section){
                 ptext.prepend($('<img/>').attr("src", imgsrc) // Add <img>-and-text-containing <p>
                 ),
                 atext.attr("href", linkhref)                  // Add <a> with text and link
-        )
+      )
     )
   }
 };

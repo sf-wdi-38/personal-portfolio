@@ -124,8 +124,6 @@ div.banner i {
 }
 
 
-
-
 /*=================================================
 Image Styling*/
 
@@ -184,7 +182,6 @@ div.footer-design a {
   text-decoration: none;
 }
 
-
 /*hoverstates*/
 
 a:hover,
@@ -236,9 +233,6 @@ main img:focus {
 
 /*=================================================
 Kludges*/
-
-
-
 
 /*.clearfix::after {
    content: " ";
