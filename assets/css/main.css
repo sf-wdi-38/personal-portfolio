@@ -32,16 +32,16 @@ body {
 }
 
 .quote {
-  color: rgb(240,128,128);
+  color: rgb(255,130,130);
   text-align: center;
   font-family: 'Noto Serif', serif;
   font-weight: 100;
-  font-size: 30px;
+  font-size: 38px;
 }
 
 .container {
   padding: 20px;
-  background-color: rgba(255,255,255,.75);
+  background-color: rgba(250,250,250,.8);
   height: auto;
   width: 75%;
   margin: 100px, 100px, 100px, 0px;
@@ -63,16 +63,29 @@ body {
 
 .main-text {
   font-size: 20px;
+  padding-top: 20px;
 }
 
 .contact-me {
-  margin: 20px 0px 20px 0px;
+  margin: 20px 0px 0px 0px;
   text-align: center;
+}
+
+.contact-me-header {
+  padding-top: 10px;
 }
 
 .glyphicon {
   font-size: 30px;
   margin: 15px 20px 15px 20px;
+}
+
+.phone-num {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 100px;
+  color: rgb(50,50,50);
+  padding-top: 5px;
 }
 
 footer {
@@ -82,7 +95,8 @@ footer {
 }
 
 .copyright {
+  line-height: 155px;
   color: white;
-  margin-top: 100px;
+  padding: 20px 20px 20px 20px;
   font-weight: 100;
 }
