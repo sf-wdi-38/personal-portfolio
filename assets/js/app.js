@@ -5,3 +5,7 @@ $(document).ready(function () {
 
 
 })
+
+var projLinks = document.getElementsByClassName("proj");
+
+document.addEventListener("click")
