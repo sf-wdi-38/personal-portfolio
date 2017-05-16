@@ -1,3 +1,5 @@
+This is a portfolio page which will (eventually) be a showcase of some of my best work and a place for others to learn about my skills, work experience and more.
+
 # Personal Portfolio Project
 By the end of this course, you'll have built several projects that you'll want to show off during your job search. This project will set you up with a portfolio website that you can use to link to your other projects, and to highlight the skills that you bring to the job search.
 
