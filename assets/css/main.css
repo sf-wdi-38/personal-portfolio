@@ -14,19 +14,26 @@ body {
 }
 
 .name {
+  padding: 40px 10px 10px 10px;
   color: white;
   font-size: 40px;
   font-family: 'Noto Serif', serif;
 }
 
+#nav-header {
+  background-color: rgba(0,0,0,.50);
+  margin-bottom: 50px;
+}
 #nav-header span a{
   margin: 50px;
   color: white;
+  font-weight: 100;
+  font-size: 18px;
 }
 
 .container {
   padding: 20px;
-  background-color: rgba(255,255,255,.7);
+  background-color: rgba(255,255,255,.8);
   height: 400px;
   width: 75%;
   margin: 100px, 100px, 100px, 0px;
@@ -45,17 +52,18 @@ body {
   margin-top: 110px;
 }
 .glyphicon {
-  font-size: 50px;
+  font-size: 30px;
   margin: 15px 20px 15px 20px;
 }
 
 footer {
   height: 100px;
-  background-color: rgba(176, 196, 222, .75);
+  background-color: rgba(0,0,0,.75);
   margin-top: 100px;
 }
 
 .copyright {
-  color: black;
+  color: white;
   margin-top: 100px;
+  font-weight: 100;
 }
