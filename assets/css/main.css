@@ -41,7 +41,7 @@ body {
 
 .container {
   padding: 20px;
-  background-color: rgba(255,255,255,.8);
+  background-color: rgba(255,255,255,.75);
   height: 600px;
   width: 75%;
   margin: 100px, 100px, 100px, 0px;
@@ -57,10 +57,11 @@ body {
   font-size: 20px;
 }
 
-.contact-info {
+.contact-me {
   margin: 20px 0px 20px 0px;
   text-align: center;
 }
+
 .glyphicon {
   font-size: 30px;
   margin: 15px 20px 15px 20px;
