@@ -15,6 +15,7 @@
 
         <!-- Application CSS and fonts -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/main.css">
         <title>Portfolio</title>
     </head>
@@ -36,7 +37,7 @@
               <ul class="nav navbar-nav">
                 <li><a href="index.html">About me</a></li>
                 <li><a href="#gallery">Featured Work</a></li>
-                <li><a href="https://docs.google.com/document/d/10EltFuGvZ5CmbLQKT0lgwiIbwFnp02wMie_k63IgE50/" target="_blank">Resume</a></li>
+                <li><a href="https://docs.google.com/document/d/1K1PoKAtR1EcVbEiQg_bRr430hp0-9fQwydizLn1KPvs/" target="_blank">Resume</a></li>
               </ul>
             </div><!--/.nav-collapse -->
           </div>
@@ -109,7 +110,7 @@
 
   <!-- Lightbox template. -->
   <script id="lightbox-template" type="x-tmpl-mustache">
-  <div class="modal" id="{{id}}" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal" id="{{id}}" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog">
    <div class="modal-content">
     <div class="modal-header">
@@ -119,7 +120,7 @@
       <img class="img-responsive" src="{{image}}" alt="300 movie poster">
       <p>{{desc}}</p>
       <h5>Code:</h5><a href="{{code}}" target="_blank">{{code}}</a>
-      <h5>Web URL</h5><a href="{{webURL}}" target="_blank">{{webURL}}</a>
+      <h5>Web URL: </h5><a href="{{webURL}}" target="_blank">{{webURL}}</a>
     </div>
     <div class="modal-footer">
       <button type="button" class="btn btn-default" data-dismiss="modal" aria-label="Close">Close</button>

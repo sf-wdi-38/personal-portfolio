@@ -34,8 +34,7 @@ $('#featured-work .col-md-4').click(function(e){
          $('.modal').fadeOut();
          $('#lightbox-container').fadeOut();
          $('#mask').fadeOut();
-
-       });
+        });
      });
 }
 
@@ -49,5 +48,5 @@ function buildDictionary(projects) {
 fetchData();
 
 $(document).on('click',function(){
-$('.collapse').collapse('hide');
-});
+    $('.collapse').collapse('hide');
+  });
