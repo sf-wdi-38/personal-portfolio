@@ -1,5 +1,5 @@
 # Personal Portfolio<br/>
-This is a single webpage showcasing my work done as a web developer and researcher.<br>
+This is a single webpage showcasing my work done as a web developer and researcher<br>
 ## Installation<br>
 Clone the Github repo and run the index.html file in your browser.<br>
 ## Usage<br>
